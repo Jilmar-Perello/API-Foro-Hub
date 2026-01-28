@@ -15,4 +15,5 @@ public record TopicResponseDTO(
             topico.getId(), topico.getTitulo(), topico.getMensaje(), topico.getFechaCreacion()
         );
     }
+
 }

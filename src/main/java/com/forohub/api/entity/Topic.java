@@ -24,6 +24,5 @@ public class Topic {
     public Topic(String titulo, String mensaje) {
         this.titulo = titulo;
         this.mensaje = mensaje;
-        this.fechaCreacion = LocalDateTime.now();
     }
 }
