@@ -17,13 +17,13 @@ public class Topic {
     private Long id;
     private String titulo;
     private String mensaje;
-    
+
     @Column(name = "fecha_creacion")
-    private LocalDateTime fechaDeCreacion;
+    private LocalDateTime fechaCreacion;
 
     public Topic(String titulo, String mensaje) {
         this.titulo = titulo;
         this.mensaje = mensaje;
-        this.fechaDeCreacion = LocalDateTime.now();
+        this.fechaCreacion = LocalDateTime.now();
     }
 }
